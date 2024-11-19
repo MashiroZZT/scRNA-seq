@@ -2,7 +2,7 @@
 title: "seurat"
 author: "Zitao Zhang"
 date: "2024-11-19"
-output: html_document
+output: pdf_document
 ---
 
 ```{r setup, include=FALSE}
