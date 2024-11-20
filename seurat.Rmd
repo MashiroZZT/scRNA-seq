@@ -67,7 +67,8 @@ top10 <- head(VariableFeatures(pbmc), 10)
 # plot variable features with and without labels
 plot1 <- VariableFeaturePlot(pbmc)
 plot2 <- LabelPoints(plot = plot1, points = top10, repel = TRUE)
-plot1 + plot2
+plot1
+plot2
 ```
 
 # Scaling the data
